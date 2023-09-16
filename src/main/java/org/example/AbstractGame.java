@@ -76,13 +76,13 @@ public abstract class  AbstractGame implements Game {
         if (x == 1) {new GameNumber();}
         else if (x == 2) {new RUGame();}
         else if (x == 3) {new ENGame();}
-
+        return;
         }
 
     }
 
-    }
-}
+
+
 
 
 
