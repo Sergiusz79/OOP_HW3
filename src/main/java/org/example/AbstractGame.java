@@ -72,12 +72,33 @@ public abstract class  AbstractGame implements Game {
         return gameStatus;
     }
 
-    public void selectVariantGame(int x){
-        if (x == 1) {new GameNumber();}
-        else if (x == 2) {new RUGame();}
-        else if (x == 3) {new ENGame();}
-        return;
+    public void selectVariantGame(int x) {
+        if (x == 1) {
+            new GameNumber();
+        } else if (x == 2) {
+            new RUGame();
+        } else if (x == 3) {
+            new ENGame();
         }
+        return;
+    }
+
+    // Либо так
+//    public void selectVariantGame(int x) {
+//        switch (x) {
+//            case 1: {
+//                new GameNumber();
+//            }
+//            case 2: {
+//                new RUGame();
+//            }
+//            case 3: {
+//                new ENGame();
+//            }
+//        }
+//
+//
+//    }
 
     }
 

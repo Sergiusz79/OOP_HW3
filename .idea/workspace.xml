@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f84a36d-77cb-4d35-ad3c-8f0fb7c006a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Description.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ENGame.java" afterDir="false" />
+    <list default="true" id="5f84a36d-77cb-4d35-ad3c-8f0fb7c006a0" name="Changes" comment="002">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +24,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Sergiusz79"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="9b8a4ef2-18a2-4228-a029-a2b03ba5431b" />
+        <option name="url" value="https://github.com/Sergiusz79/OOP_HW3.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -49,7 +58,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Users/Admin/OneDrive/Документы/Учёба/Programming/OOP_HW3",
+    "last_opened_file_path": "D:/Users/Admin/OneDrive/Документы/Учёба/Programming/OOP_Seminar_3",
     "onboarding.tips.debug.path": "C:/Users/funpa/Desktop/GB/OOP_Home_Work_3/src/main/java/org/example/Main.java"
   }
 }]]></component>
@@ -103,7 +112,20 @@
       <option name="presentableId" value="Default" />
       <updated>1693589927413</updated>
     </task>
+    <task id="LOCAL-00001" summary="002">
+      <option name="closed" value="true" />
+      <created>1694845217079</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694845217079</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="002" />
+    <option name="LAST_COMMIT_MESSAGE" value="002" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
