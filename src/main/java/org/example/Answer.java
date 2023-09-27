@@ -1,6 +1,7 @@
 package org.example;
 
-
+import java.util.logging.*;
+import java.io.IOException;
 
 public class Answer {
     private String userInput;
@@ -33,11 +34,9 @@ public class Answer {
 
     @Override
     public String toString() {
-        return "Answer{" +
-                "userInput='" + userInput + '\'' +
-                ", bull=" + bull +
-                ", cow=" + cow +
-                '}';
+        return "User Answer = " + userInput + "\n" +
+                "Bull = " + bull + "\n" +
+                "Cow = " + cow;
     }
 
     public Answer(String userInput, Integer bull, Integer cow) {
@@ -45,6 +44,5 @@ public class Answer {
         this.bull = bull;
         this.cow = cow;
     }
-
 
 }

@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Random;
 
 public abstract class  AbstractGame implements Game {
-
     Integer sizeWord;
     Integer maxTry;
     String word;
@@ -13,19 +12,21 @@ public abstract class  AbstractGame implements Game {
 
     /**
      * @apiNote метод предзаполняет слова компьютера
-     * @return
+     * @return слово для угадывания
      */
+
     public String generateWord(){
-        List<String> alphavit = generateCharList();
+        List<String> alphabet = generateCharList();
         Random r = new Random();
         String result = "";
         for (int i = 0; i < sizeWord; i++) {
-            int index = r.nextInt(alphavit.size());
-            result = result.concat(alphavit.get(index));
-            alphavit.remove(index);
+            int index = r.nextInt(alphabet.size());
+            result = result.concat(alphabet.get(index));
+            alphabet.remove(index);
         }
         return result;
     }
+
 
     abstract List<String> generateCharList();
 
@@ -72,35 +73,16 @@ public abstract class  AbstractGame implements Game {
         return gameStatus;
     }
 
-    public void selectVariantGame(int x) {
-        if (x == 1) {
-            new GameNumber();
-        } else if (x == 2) {
-            new RUGame();
-        } else if (x == 3) {
-            new ENGame();
-        }
-        return;
-    }
 
-    // Либо так
-//    public void selectVariantGame(int x) {
-//        switch (x) {
-//            case 1: {
-//                new GameNumber();
-//            }
-//            case 2: {
-//                new RUGame();
-//            }
-//            case 3: {
-//                new ENGame();
-//            }
-//        }
-//
-//
-//    }
 
-    }
+
+
+
+
+
+
+
+}
 
 
 
