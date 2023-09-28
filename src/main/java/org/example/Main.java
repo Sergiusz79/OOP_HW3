@@ -1,37 +1,63 @@
 package org.example;
 
+import java.io.FileInputStream;
+import java.util.Scanner;
 import java.io.IOException;
 import java.util.logging.*;
-import java.util.Scanner;
 
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+    static Logger logger = Logger.getLogger(Main.class.getName());
 
-        Scanner in = new Scanner(System.in);
-        System.out.println("Выберете вариант игры: \n 1-numbers \n 2-RU Word \n 3-EN Word");
-        int num = in.nextInt();
-        Game game = selectVariantGame(num);
-        game.start(5, 2);
-
-        while (!game.getGameStatus().equals(GameStatus.WINNER)
-                && !game.getGameStatus().equals(GameStatus.LOSE)) {
-            System.out.println("Введите вариант ответа: ");
-            String scannerWord = in.next();
-            Answer answer = game.inputValue(scannerWord);
-            System.out.println(answer);
+    static {
+        try (FileInputStream ins = new FileInputStream("d:\\Users\\Admin\\OneDrive\\Документы\\Учёба" +
+                "\\Programming\\OOP_HW3\\src\\Properties\\log.properties")) {
+            LogManager.getLogManager().readConfiguration(ins);
+            logger = Logger.getLogger(Main.class.getName());
+        } catch (Exception ignore) {
+            ignore.printStackTrace();
         }
-        System.out.println(game.getGameStatus());
+    }
+
+    public static void main(String[] args)  {
+        try {
+            logger.info(" Start ");
+            Scanner in = new Scanner(System.in);
+            System.out.println("Выберете вариант игры: \n 1-numbers \n 2-RU Alphabet \n 3-EN Alphabet");
+            int num = in.nextInt();
+            Game game = selectVariantGame(num);
+            if (num == 1) {
+                logger.info(" Select variant game - Numbers ");
+            }
+            if (num == 2) {
+                logger.info(" Select variant game - RU Alphabet ");
+            }
+            if (num == 3) {
+                logger.info(" Select variant game - EN Alphabet ");
+            }
 
 
-        Logger logger = Logger.getLogger(Main.class.getName());
-        FileHandler fh = new FileHandler("log.txt");
-        logger.addHandler(fh);
-        SimpleFormatter sFormat = new SimpleFormatter();
-        fh.setFormatter(sFormat);
-        logger.info("Test 1");
+            logger.info(" GameStatus = " + game.getGameStatus());
+            game.start(5, 2);
+            while (!game.getGameStatus().equals(GameStatus.WINNER)
+                    && !game.getGameStatus().equals(GameStatus.LOSE)) {
 
+                System.out.println("Введите вариант ответа: ");
+                logger.info(" User input answer ");
+                String scannerWord = in.next();
+                Answer answer = game.inputValue(scannerWord);
+                System.out.println(answer);
+                logger.info(" " + answer);
+            }
+
+            System.out.println(game.getGameStatus());
+
+        } catch (Exception e) {
+
+            logger.log(Level.WARNING, "что-то пошло не так", e);
+
+        }
     }
 
 

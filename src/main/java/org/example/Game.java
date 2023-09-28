@@ -18,7 +18,9 @@ public interface Game {
     Answer inputValue(String value);
 
 
+
     GameStatus getGameStatus();
+
 
 
 }

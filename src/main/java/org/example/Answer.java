@@ -1,8 +1,5 @@
 package org.example;
 
-import java.util.logging.*;
-import java.io.IOException;
-
 public class Answer {
     private String userInput;
     private Integer bull;

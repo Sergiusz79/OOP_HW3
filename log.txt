@@ -1,2 +1,1 @@
-сент. 27, 2023 8:50:05 PM org.example.Main main
-INFO: Test 1
+
