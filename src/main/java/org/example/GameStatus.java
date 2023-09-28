@@ -1,5 +1,5 @@
 package org.example;
 
 public enum GameStatus {
-INIT,START,END,WINNER,LOSE
+INIT,START,END,WINNER,LOSE,RESTART
 }
