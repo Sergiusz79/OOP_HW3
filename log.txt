@@ -1,64 +1,62 @@
-сент. 29, 2023 6:25:46 PM org.example.Main main
-INFO:  Start 
-сент. 29, 2023 6:25:49 PM org.example.Main main
+окт. 04, 2023 5:11:05 PM org.example.Main main
 INFO:  Select variant game - Numbers 
-сент. 29, 2023 6:25:49 PM org.example.Main main
+окт. 04, 2023 5:11:05 PM org.example.Main main
 INFO:  GameStatus = INIT
-сент. 29, 2023 6:25:49 PM org.example.AbstractGame start
+окт. 04, 2023 5:11:05 PM org.example.AbstractGame start
 INFO:  sizeWord = 5
-сент. 29, 2023 6:25:49 PM org.example.AbstractGame start
+окт. 04, 2023 5:11:05 PM org.example.AbstractGame start
 INFO:  maxTry = 2
-сент. 29, 2023 6:25:49 PM org.example.AbstractGame start
-INFO:  GenerateWord = 96170
-сент. 29, 2023 6:25:49 PM org.example.AbstractGame start
+окт. 04, 2023 5:11:05 PM org.example.AbstractGame start
+INFO:  GenerateWord = 63750
+окт. 04, 2023 5:11:05 PM org.example.AbstractGame start
 INFO:  GameStatus changed to = START
-сент. 29, 2023 6:25:49 PM org.example.Main main
+окт. 04, 2023 5:11:05 PM org.example.Main main
 INFO:  User input answer 
-сент. 29, 2023 6:25:54 PM org.example.AbstractGame inputValue
+окт. 04, 2023 5:11:12 PM org.example.AbstractGame inputValue
 INFO:  Number of attempts = 1
-сент. 29, 2023 6:25:54 PM org.example.AbstractGame inputValue
+окт. 04, 2023 5:11:12 PM org.example.AbstractGame inputValue
 INFO:  Number of bulls = 0
-сент. 29, 2023 6:25:54 PM org.example.AbstractGame inputValue
+окт. 04, 2023 5:11:12 PM org.example.AbstractGame inputValue
 INFO:  Number of cows = 0
-сент. 29, 2023 6:25:54 PM org.example.AbstractGame inputValue
+окт. 04, 2023 5:11:12 PM org.example.AbstractGame inputValue
 INFO: Comparison of 0 elements 
-сент. 29, 2023 6:25:54 PM org.example.AbstractGame inputValue
+окт. 04, 2023 5:11:12 PM org.example.AbstractGame inputValue
 INFO:  Number of bulls = 1
-сент. 29, 2023 6:25:54 PM org.example.AbstractGame inputValue
+окт. 04, 2023 5:11:12 PM org.example.AbstractGame inputValue
 INFO:  Number of cows = 1
-сент. 29, 2023 6:25:54 PM org.example.AbstractGame inputValue
+окт. 04, 2023 5:11:12 PM org.example.AbstractGame inputValue
 INFO: Comparison of 1 elements 
-сент. 29, 2023 6:25:54 PM org.example.AbstractGame inputValue
+окт. 04, 2023 5:11:12 PM org.example.AbstractGame inputValue
 INFO:  Number of bulls = 2
-сент. 29, 2023 6:25:54 PM org.example.AbstractGame inputValue
+окт. 04, 2023 5:11:12 PM org.example.AbstractGame inputValue
 INFO:  Number of cows = 2
-сент. 29, 2023 6:25:54 PM org.example.AbstractGame inputValue
+окт. 04, 2023 5:11:12 PM org.example.AbstractGame inputValue
 INFO: Comparison of 2 elements 
-сент. 29, 2023 6:25:54 PM org.example.AbstractGame inputValue
+окт. 04, 2023 5:11:12 PM org.example.AbstractGame inputValue
 INFO:  Number of bulls = 3
-сент. 29, 2023 6:25:54 PM org.example.AbstractGame inputValue
+окт. 04, 2023 5:11:12 PM org.example.AbstractGame inputValue
 INFO:  Number of cows = 3
-сент. 29, 2023 6:25:54 PM org.example.AbstractGame inputValue
+окт. 04, 2023 5:11:12 PM org.example.AbstractGame inputValue
 INFO: Comparison of 3 elements 
-сент. 29, 2023 6:25:54 PM org.example.AbstractGame inputValue
+окт. 04, 2023 5:11:12 PM org.example.AbstractGame inputValue
 INFO:  Number of bulls = 4
-сент. 29, 2023 6:25:54 PM org.example.AbstractGame inputValue
+окт. 04, 2023 5:11:12 PM org.example.AbstractGame inputValue
 INFO:  Number of cows = 4
-сент. 29, 2023 6:25:54 PM org.example.AbstractGame inputValue
+окт. 04, 2023 5:11:12 PM org.example.AbstractGame inputValue
 INFO: Comparison of 4 elements 
-сент. 29, 2023 6:25:54 PM org.example.AbstractGame inputValue
+окт. 04, 2023 5:11:12 PM org.example.AbstractGame inputValue
 INFO:  Number of bulls = 5
-сент. 29, 2023 6:25:54 PM org.example.AbstractGame inputValue
+окт. 04, 2023 5:11:12 PM org.example.AbstractGame inputValue
 INFO:  Number of cows = 5
-сент. 29, 2023 6:25:54 PM org.example.AbstractGame inputValue
+окт. 04, 2023 5:11:12 PM org.example.AbstractGame inputValue
 INFO: word.length = 5 = bulls = 5
-сент. 29, 2023 6:25:54 PM org.example.AbstractGame inputValue
+окт. 04, 2023 5:11:12 PM org.example.AbstractGame inputValue
 INFO:  GameStatus changed to = WINNER
-сент. 29, 2023 6:25:54 PM org.example.Main main
-INFO:  User Answer = 96170
+окт. 04, 2023 5:11:12 PM org.example.Main main
+INFO:  User Answer = 63750
 Bull = 5
 Cow = 5
-сент. 29, 2023 6:25:54 PM org.example.Main main
+окт. 04, 2023 5:11:12 PM org.example.Main main
 INFO:  GameStatus = WINNER
-сент. 29, 2023 6:25:54 PM org.example.Main main
+окт. 04, 2023 5:11:12 PM org.example.Main main
 INFO:  GameStatus = END
