@@ -17,10 +17,9 @@ public interface Game {
      */
     Answer inputValue(String value);
 
-void restart (GameStatus gameStatus);
-
     GameStatus getGameStatus();
 
     GameStatus setGameStatusEnd();
+
 
 }
